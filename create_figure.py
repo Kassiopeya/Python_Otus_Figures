@@ -13,7 +13,7 @@ print("New Circle:")
 print(new_circle.get_area)
 print(new_circle.get_perimeter)
 
-new_triangle = Triangle(8,8,8)
+new_triangle = Triangle(20.1,14.1,12.1)
 print("New Triangle:")
 print(new_triangle.get_area)
 print(new_circle.get_perimeter)

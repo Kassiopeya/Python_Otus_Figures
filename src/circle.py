@@ -8,10 +8,13 @@ class Circle (Figure):
         if radius <= 0:
             raise ValueError("Radius can't be less than 0")
         self.radius = radius
+
     @property
     def get_area(self):
-        return math.pi*self.radius**2
+        area = math.pi*self.radius**2
+        return round (area, 2)
 
     @property
     def get_perimeter(self):
-        return 2 * math.pi * self.radius
+        perimeter = 2 * math.pi * self.radius
+        return round(perimeter, 2)
